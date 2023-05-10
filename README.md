@@ -21,3 +21,6 @@ the history of the chat in the chatlog
 Technologies Used:
 For this Project I used Python as primary programming language along with
 different libraries and modules like NLTK , Keras , TensorFlow , NumPy , Tkinter .
+
+![image](https://github.com/VJ1133/BankingChatBot/assets/123354858/c64b48a7-8193-414b-990d-08065fda6002)
+
