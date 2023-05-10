@@ -1,0 +1,138 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there","hi","whatsup?","How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day" , "yo"],
+         "responses": ["Hello i'm chitti your Digital assistant,how can i help you?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye","tata","See you later", "Goodbye", "Nice chatting to you, bye", "Till next time" , "see you soon"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon." , "Bye ! Thanks for chatting"],
+         "context": [""]
+        },
+		{"tag": "faq",
+         "patterns": ["faq","help","frequently asked questions", "doubt", "some questions", "questions" , "FAQ" , "Q/A"],
+         "responses": [ "Account FAQ, Pay and Transfer FAQ , Profile FAQ"] ,
+         "context": [""]
+        },
+		{"tag": "Account doubts",
+         "patterns": ["Account FAQ" , "Account questions"  ],
+         "responses": ["Deposit check , Card Expiring  , Account Numbers and routing number ,  How to Open a account" ],
+         "context": [""]
+        },
+		{"tag": "deposit doubts",
+         "patterns": ["Deposit check" ,"deposit check details" ,"i want to deposit a check"],
+         "responses": ["Take a picture of deposite check with your phone or tablet and get the money in account"],
+         "context": [""]
+        },
+		{"tag": "my card expiring",
+         "patterns": ["My card expiring " , "Card expiring" , "card expired" , "what to do my card expired"],
+         "responses": ["Go to a nearest bank or apply for card online"],
+         "context": [""]
+        },
+		{"tag": "Account number doubts",
+         "patterns": ["Account number FAQ" , "routing number FAQ" , "Account number and routing number FAQ" , "what is my Account number and routing number" , "Account number" , "routing number" , "Account number and routing number ?"],
+         "responses": ["Your Account number is 6712974782936 and routing number is 0390001245"],
+         "context": [""]
+        },
+		{"tag": "open a account",
+         "patterns": ["How to open a account" , "Open a account" , "opening a new account" , "open a new account"],
+         "responses": ["Go to a nearest bank or open an account my clicking on the below link :  new-account"],
+         "context": [""]
+        },
+		{"tag": "pay and transfer",
+         "patterns": ["pay and transfer faq" , "pay faq" , "transfer faq" , "pay" , "transfer"],
+         "responses": [ "schedule transfers, transfer limit"] ,
+         "context": [""]
+        },
+		{"tag": "schedule transfer",
+         "patterns": ["schedule transfer faq" , "schedule transfer"],
+         "responses": [ "here is a link you can use to schedule a transfer : "] ,
+         "context": [""]
+        },
+		{"tag": "transfer limit",
+         "patterns": ["transfer limit" , "transfer limit faq" ],
+         "responses": [ " the transfer limit in 5000$ in a day and maximum of 6 transactions"] ,
+         "context": [""]
+        },
+		{"tag": "profile faq",
+         "patterns": ["profile faq","profile changes","profile change","profile update","update profile","update my profile"],
+         "responses": [ "update contact info , update username / password"] ,
+         "context": [""]
+        },
+		{"tag": "update contact info",
+         "patterns": ["update contact" , "contact update" , "update contact info"],
+         "responses": [ "Here is a link you can use to update the contact information : "] ,
+         "context": [""]
+        },
+		{"tag": "username doubts",
+         "patterns": ["username info" , "username and password update","username update" , "password update","username / password update" , "update username " , "update password ", "update username and password"],
+         "responses": [ "Here is a link you can use to upda the username / password : "] ,
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand" , "I didn't quite catch that"],
+         "context": [""]
+        },
+        {"tag": "accountbalance",
+         "patterns": ["show all the accounts","accounts","account","account details"],
+         "responses": ["Savings account, Current account, Business account"],
+         "context": [""]
+        },
+        {"tag": "savings",
+         "patterns": ["savings account" , "savings details" , "savings balance"],
+         "responses": ["your account balance is $123,000"],
+         "context": [""]
+        },
+        {"tag": "Current",
+         "patterns": [ "current details","current account" , "current balance" ],
+         "responses": ["Your current balance is $142,000"],
+         "context": [""]
+        },
+		{"tag": "Business",
+         "patterns": [ "Business details" , "business account" , "business balance"],
+         "responses": ["Your business balance is $246,000"],
+         "context": [""]
+        },
+        {"tag": "Card",
+         "patterns": [ "card details" , "card", "card information"],
+         "responses": ["Do you mean credit card ?"],
+         "context": [""]
+        },
+		{"tag": "credit card",
+         "patterns": ["credit card" , "Credit" , "yes" , "yup" , "ya" ],
+         "responses": ["Remaining credit in credit card is $6,000"],
+         "context": [""]
+        },
+		{"tag": "Statement",
+         "patterns": [ "balance statement" , "Statement" , "Account statement" ],
+         "responses": ["Monthly statement , Half yearly statement" , "Yearly statements"],
+         "context": [""]
+        },
+		{"tag": "Monthly Statement",
+         "patterns": ["Monthly statement" , "1 month statement"],
+         "responses": ["Your one month statement is available for download"],
+         "context": [""]
+        },
+		{"tag": "six month Statement",
+         "patterns": ["half yearly statement" , "6 month statement"],
+         "responses": ["Your half yearly statement is available for download"],
+         "context": [""]
+        },
+		{"tag": "yearly Statement",
+         "patterns": [" yearly statement" , "1 year  statement" , "year" , "yearly"],
+         "responses": ["Your yearly statement is available for download"],
+         "context": [""]
+        },
+        {"tag": "ATM",
+         "patterns": ["ATM","atm","Atm branch", "ATM Branch near me ", "ATM near me", "atm locations" ],
+         "responses": ["Nearest ATM Location is MOUNT PLEASANT : 1 Mile"],
+         "context": [""]
+        }
+   ]
+}
